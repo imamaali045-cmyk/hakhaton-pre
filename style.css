@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+.container-xxl {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 999px) {
+    img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+}
+
+
+
+@media only screen and (max-width: 999px) {
+    img.banner-image {
+        height: 500px;
+    }
+}
